@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTestReharsal.Repository"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTestReharsal.Service", "LabTestReharsal.Service\LabTestReharsal.Service.csproj", "{1F97393A-FD43-4AD7-A4B3-ED3B877B1F65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTestReharsal.ViewModel", "LabTestReharsal.ViewModel\LabTestReharsal.ViewModel.csproj", "{0DE876E1-1621-42ED-9E61-41B0607C371D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTestReharsal.App", "LabTestReharsal.App\LabTestReharsal.App.csproj", "{57522B1F-8370-4EB3-A00C-C7AA7B432565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{1F97393A-FD43-4AD7-A4B3-ED3B877B1F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F97393A-FD43-4AD7-A4B3-ED3B877B1F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F97393A-FD43-4AD7-A4B3-ED3B877B1F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE876E1-1621-42ED-9E61-41B0607C371D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE876E1-1621-42ED-9E61-41B0607C371D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE876E1-1621-42ED-9E61-41B0607C371D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE876E1-1621-42ED-9E61-41B0607C371D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57522B1F-8370-4EB3-A00C-C7AA7B432565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57522B1F-8370-4EB3-A00C-C7AA7B432565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57522B1F-8370-4EB3-A00C-C7AA7B432565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57522B1F-8370-4EB3-A00C-C7AA7B432565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +55,7 @@ Global
 		{1AEAC3AF-EBA4-4EAD-AD1D-0B33E0C1A2F0} = {27A1236D-E9F5-47D2-8652-927B60322B2C}
 		{32168941-8B0C-4D3E-8509-58B5991AFB88} = {0F304550-7863-449C-AAD6-3A24DE5C6584}
 		{1F97393A-FD43-4AD7-A4B3-ED3B877B1F65} = {84243555-9BBB-4253-945E-8CB2B0A60ED0}
+		{0DE876E1-1621-42ED-9E61-41B0607C371D} = {27A1236D-E9F5-47D2-8652-927B60322B2C}
+		{57522B1F-8370-4EB3-A00C-C7AA7B432565} = {4A894542-B6B6-45EC-9C4C-45A007DF2411}
 	EndGlobalSection
 EndGlobal

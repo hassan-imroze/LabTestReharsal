@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LabTestReharsal.Model\LabTestReharsal.Model.csproj">
+      <Project>{1aeac3af-eba4-4ead-ad1d-0b33e0c1a2f0}</Project>
+      <Name>LabTestReharsal.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LabTestReharsal.Repository\LabTestReharsal.Repository.csproj">
+      <Project>{32168941-8b0c-4d3e-8509-58b5991afb88}</Project>
+      <Name>LabTestReharsal.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LabTestReharsal.ViewModel\LabTestReharsal.ViewModel.csproj">
+      <Project>{0de876e1-1621-42ed-9e61-41b0607c371d}</Project>
+      <Name>LabTestReharsal.ViewModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
