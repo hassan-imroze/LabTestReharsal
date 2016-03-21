@@ -33,6 +33,21 @@ namespace LabTestReharsal.App.Controllers
             }
         }
 
+        [System.Web.Http.HttpGet]
+        public IHttpActionResult EmailExists(string email)
+        {
+            try
+            {
+                
+                return Ok(service.EmailExists(email));
+            }
+            catch (Exception ex)
+            {
+
+                return Content(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
         public IHttpActionResult Post(Student student)
         {
             if (string.IsNullOrWhiteSpace(student.Id))

@@ -41,6 +41,11 @@ namespace LabTestReharsal.Service
 
         }
 
-
+       
+        public bool EmailExists(string email)
+        {
+            return studentReository.EmailExists(email);
+            
+        }
     }
 }
